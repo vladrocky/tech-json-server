@@ -1,0 +1,687 @@
+{
+  "markets": [
+    {
+      "id": 1,
+      "store": "Some1"
+    },
+    {
+      "id": 2,
+      "store": "Some2"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "store_id": 1,
+      "title": "Смартфоны",
+      "photo": "smartphone.png"
+    },
+    {
+      "id": 2,
+      "store_id": 1,
+      "title": "Ноутбуки",
+      "photo": "laptop-screen.png"
+    },
+    {
+      "id": 3,
+      "store_id": 1,
+      "title": "Телевизоры",
+      "photo": "uhd.png"
+    },
+    {
+      "id": 4,
+      "title": "Часы",
+      "photo": "clock.png"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "brand": "Apple"
+    },
+    {
+      "id": 2,
+      "brand": "HONOR"
+    },
+    {
+      "id": 3,
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 4,
+      "brand": "Samsung"
+    },
+    {
+      "id": 5,
+      "brand": "Nokia"
+    },
+    {
+      "id": 6,
+      "brand": "Motorola"
+    },
+    {
+      "id": 6,
+      "brand": "Huawei"
+    },
+    {
+      "id": 7,
+      "brand": "Meizu"
+    },
+    {
+      "id": 8,
+      "brand": "Lenovo"
+    },
+    {
+      "id": 9,
+      "brand": "Asus"
+    },
+    {
+      "id": 10,
+      "brand": "Acer"
+    },
+    {
+      "id": 11,
+      "brand": "HP"
+    },
+    {
+      "id": 12,
+      "brand": "MSI"
+    },
+    {
+      "id": 13,
+      "brand": "Sony"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "store_id": 1,
+      "brand_id": 5,
+      "category_id": 1,
+      "title": "Nokia",
+      "description": "Бессмертная классика",
+      "price": 1000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Nokia_3310_Blue_R7309170_%28retouch%29.png"
+    },
+    {
+      "id": 2,
+      "store_id": 1,
+      "brand_id": 6,
+      "category_id": 1,
+      "title": "Motorola",
+      "description": "Древность",
+      "price": 2500,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/1989MicroTAC.jpg"
+    },
+    {
+      "id": 3,
+      "store_id": 1,
+      "brand_id": 1,
+      "category_id": 1,
+      "title": "iPhone 12",
+      "description": "Мода",
+      "price": 200000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/IPhone_12_Blue.svg/800px-IPhone_12_Blue.svg.png"
+    },
+    {
+      "id": 4,
+      "store_id": 1,
+      "brand_id": 3,
+      "category_id": 1,
+      "title": "Xiaomi_Mi_MIX_2",
+      "description": "Китай",
+      "price": 20000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Mi_mix_2_front_back.png"
+    },
+    {
+      "id": 5,
+      "store_id": 1,
+      "brand_id": 6,
+      "category_id": 1,
+      "title": "Huawei_P20_Pro",
+      "description": "Китай",
+      "price": 25000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/98/Huawei_P20_Pro_in_Paris.jpg"
+    },
+    {
+      "id": 6,
+      "store_id": 1,
+      "brand_id": 7,
+      "category_id": 1,
+      "title": "Meizu_M9",
+      "description": "Китай",
+      "price": 30000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Meizu_M9.png"
+    },
+    {
+      "id": 6,
+      "store_id": 1,
+      "brand_id": 4,
+      "category_id": 1,
+      "title": "Samsung_Foldable_Smartphone",
+      "description": "Гибкий",
+      "price": 300000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Samsung_Foldable_Smartphone.jpg"
+    },
+    {
+      "id": 7,
+      "store_id": 1,
+      "brand_id": 8,
+      "category_id": 2,
+      "title": "Lenovo_ThinkPad",
+      "description": "Потомок IBM",
+      "price": 400000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lenovo_ThinkPad_X1_Ultrabook.jpg"
+    },
+    {
+      "id": 8,
+      "store_id": 1,
+      "brand_id": 8,
+      "category_id": 2,
+      "title": "Lenovo_ThinkPad",
+      "description": "Потомок IBM",
+      "price": 400000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lenovo_ThinkPad_X1_Ultrabook.jpg"
+    },
+    {
+      "id": 9,
+      "store_id": 1,
+      "brand_id": 1,
+      "category_id": 2,
+      "title": "MacBook",
+      "description": "Безупречен",
+      "price": 200000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Apple_MacBook_Pro_15%22_%282017%29.jpg"
+    },
+    {
+      "id": 10,
+      "store_id": 1,
+      "brand_id": 9,
+      "category_id": 2,
+      "title": "Asus",
+      "description": "Популярный",
+      "price": 100000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Asus_x21_ultrabook.jpg/1280px-Asus_x21_ultrabook.jpg"
+    },
+    {
+      "id": 11,
+      "store_id": 1,
+      "brand_id": 10,
+      "category_id": 2,
+      "title": "Acer",
+      "description": " ",
+      "price": 70000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Acer_Aspire_6920.jpg"
+    },
+    {
+      "id": 12,
+      "store_id": 1,
+      "brand_id": 11,
+      "category_id": 2,
+      "title": "HP",
+      "description": "Пионер на рынке",
+      "price": 80000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/HP_ProBook_6560b.png"
+    },
+    {
+      "id": 13,
+      "store_id": 1,
+      "brand_id": 12,
+      "category_id": 2,
+      "title": "MSI",
+      "description": "Игровой",
+      "price": 180000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/8/84/MSI_Bravo_17_%280017FK-007%29-front_oblique_PNr°0757.jpg"
+    },
+    {
+      "id": 14,
+      "store_id": 1,
+      "brand_id": 13,
+      "category_id": 3,
+      "title": "Sony",
+      "description": "Популярный",
+      "price": 50000,
+      "photo": "https://upload.wikimedia.org/wikipedia/en/5/58/Newly_released_Bravia.jpg"
+    },
+    {
+      "id": 15,
+      "store_id": 1,
+      "brand_id": 4,
+      "category_id": 3,
+      "title": "Samsung_LED",
+      "description": "Обыкновенный",
+      "price": 9000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Samsung_LED_TV.jpg"
+    },
+    {
+      "id": 16,
+      "store_id": 1,
+      "brand_id": 7,
+      "category_id": 4,
+      "title": "Mi_band",
+      "description": "пульсометр, силикон",
+      "price": 1000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mi_Band.jpg"
+    },
+    {
+      "id": 17,
+      "store_id": 1,
+      "brand_id": 6,
+      "category_id": 4,
+      "title": "Huawei_Watch",
+      "description": "сопряжение со смартфоном",
+      "price": 2000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Huawei_Watch_%2816948546718%29.jpg"
+    },
+    {
+      "id": 18,
+      "store_id": 1,
+      "brand_id": 4,
+      "category_id": 4,
+      "title": "Samsung_Galaxy_Gear",
+      "description": " ",
+      "price": 40000,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Huawei_Watch_%2816948546718%29.jpg"
+    },
+    {
+      "id": 19,
+      "store_id": 2,
+      "brand_id": 1,
+      "category_id": 1,
+      "title": "iPhone 14 128GB SIM + ESIM синий",
+      "description": {
+        "diag": "6.1",
+        "pixel": "2532x1170",
+        "memory": 128,
+        "camera": "12+12",
+        "system": "iOS 16"
+      },
+      "price": 82990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/535/535ad83c078f52432d3f3d46a85798c7.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/406/4068bb97774fc84bb96e2dbe5a5e5be0.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/a7e/a7e53d7a57879c93260400f2b0b0d6cb.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 20,
+      "store_id": 2,
+      "brand_id": 1,
+      "category_id": 1,
+      "title": "Смартфон Apple iPhone 13 Pro Max 256GB небесно-голубой",
+      "description": {
+        "diag": "6.7",
+        "pixel": "2778x1284",
+        "memory": 256,
+        "camera": "12+12+12",
+        "system": "iOS 15"
+      },
+      "price": 119990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/24e/iphone_13_pro_max_q421_sierra_blue_pdp_image_position-1a__ru-ru.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/5d3/iphone_13_pro_max_q421_sierra_blue_pdp_image_position-2__ru-ru.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/e20/iphone_13_pro_max_q421_sierra_blue_pdp_image_position-3__ru-ru.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 21,
+      "store_id": 2,
+      "brand_id": 1,
+      "category_id": 1,
+      "title": "Apple iPhone 13 128GB (синий)",
+      "description": {
+        "diag": "6.1",
+        "pixel": "2532x1170",
+        "memory": 128,
+        "camera": "12+12",
+        "system": "iOS 15"
+      },
+      "price": 73990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/c30/iphone_13_q421_blue_pdp_image_position-1a__ru-ru.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/c9c/iphone_13_q421_blue_pdp_image_position-2__ru-ru.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/69a/iphone_13_q421_blue_pdp_image_position-3__ru-ru.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 22,
+      "store_id": 2,
+      "brand_id": 1,
+      "category_id": 1,
+      "title": "Смартфон Apple iPhone 14 Pro 128GB SIM + ESIM золотой",
+      "description": {
+        "diag": "6.1",
+        "pixel": "2556х1179",
+        "memory": 128,
+        "camera": "48+12+12",
+        "system": "iOS 16"
+      },
+      "price": 114990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/27f/27f8928ba67ca060d8f4e47e5e0f63f3.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/201/201c6a2b726bc8194d34011d8e6da78c.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/3c3/3c38886946cc546c917eadbb0f5b7d09.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 23,
+      "store_id": 2,
+      "brand_id": 1,
+      "category_id": 1,
+      "title": "Apple iPhone 12 128GB (зеленый)",
+      "description": {
+        "diag": "6.1",
+        "pixel": "2532x1170",
+        "memory": 128,
+        "camera": "12+12",
+        "system": "iOS 14"
+      },
+      "price": 66990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/1e5/ruru_iphone12_q121_green_pdp-image-1a.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/103/ruru_iphone12_q121_green_pdp-image-1b.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/f43/ruru_iphone12_q121_green_pdp-image-3.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 24,
+      "store_id": 2,
+      "brand_id": 2,
+      "category_id": 1,
+      "title": "HONOR 70 8/128GB (изумрудный зеленый)",
+      "description": {
+        "diag": "6.67",
+        "pixel": "2400x1080",
+        "memory": 128,
+        "camera": "54 + 50 + 2",
+        "system": "Android 12"
+      },
+      "price": 35990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/5bd/5bd689faf4a95f5243e1d5eee9699ae7.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/9ce/9ce8bf3d6ba8d78f16d95b0ab6392c32.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/910/91083cb1eb7c872c4108c0b4e3d7e48f.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 25,
+      "store_id": 2,
+      "brand_id": 2,
+      "category_id": 1,
+      "title": "Смартфон HONOR X8 6/128GB полночный черный",
+      "description": {
+        "diag": "6.7",
+        "pixel": "2388x1080",
+        "memory": 128,
+        "camera": "64 + 5 + 2 + 2",
+        "system": "Android 11"
+      },
+      "price": 19990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/09c/09cc07a3534653c8ec2c1a119506c42d.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/4af/4af8972fe2fcdebcf08b76f1a22d887b.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/564/5642e34d063f7ee920ea0f436686435a.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 26,
+      "store_id": 2,
+      "brand_id": 2,
+      "category_id": 1,
+      "title": "Смартфон HONOR X7 4/128GB синий океан",
+      "description": {
+        "diag": "6.74",
+        "pixel": "1600x720",
+        "memory": 128,
+        "camera": "48 + 5 + 2 + 2",
+        "system": "Android 11"
+      },
+      "price": 16990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/7e7/7e79be3842cc79654df9c83d6c57989b.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/991/99138f29ada49478f02ef99c20624411.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/ce6/ce60e7bf1bbc6070a016df2bd31a54de.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 27,
+      "store_id": 2,
+      "brand_id": 2,
+      "category_id": 1,
+      "title": "Смартфон HONOR 50 Lite 6/128GB космический серебристый",
+      "description": {
+        "diag": "6.67",
+        "pixel": "2376x1080",
+        "memory": 128,
+        "camera": "64 + 8 + 2 + 2",
+        "system": "Android 11"
+      },
+      "price": 19990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/01b/honor_50_lite_silver_001.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/bc7/honor_50_lite_silver_07.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/d07/honor_50_lite_silver_04.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 28,
+      "store_id": 2,
+      "brand_id": 2,
+      "category_id": 1,
+      "title": "Смартфон HONOR 10i 4/128GB мерцающий красный (HRY-LX1T)",
+      "description": {
+        "diag": "6.21",
+        "pixel": "2340x1080",
+        "memory": 128,
+        "camera": "24 + 8 + 2",
+        "system": "Android 9 Pie"
+      },
+      "price": 13995,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/0af/img_7996.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/859/img_8002.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/734/img_8044.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 29,
+      "store_id": 2,
+      "brand_id": 4,
+      "category_id": 1,
+      "title": "Samsung Galaxy Z Flip4",
+      "description": {
+        "diag": "6.7",
+        "pixel": "2640x1080",
+        "memory": "256",
+        "camera": "12+12",
+        "system": "Android 12"
+      },
+      "price": 75990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/6b4/6b4d4e4950ca334d202ca528863739e6.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/c2f/c2ffefd10a0df46a731ce72b3421e0df.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/d81/d8113a2c5cbb8d35dc07aabf81c4601d.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 30,
+      "store_id": 2,
+      "brand_id": 4,
+      "category_id": 1,
+      "title": "Samsung Galaxy S22 Ultra",
+      "description": {
+        "diag": "6.8",
+        "pixel": "3088x1440",
+        "memory": "512",
+        "camera": "108 + 12 + 10 + 10 (четыре основные камеры)",
+        "system": "Android 12"
+      },
+      "price": 120990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/1b2/1b26b4e9a1cf45e9814802b361809b9a.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/a55/a55294e2bd50455903a88c6ac02b65dd.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/dab/dabc5728c9fac9d5358c2965c543befa.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 31,
+      "store_id": 2,
+      "brand_id": 4,
+      "category_id": 1,
+      "title": "Samsung Galaxy A13 4/64GB",
+      "description": {
+        "diag": "6.6",
+        "pixel": "2408x1080",
+        "memory": "64",
+        "camera": "50 + 5 + 2 + 2 (четыре основные камеры)",
+        "system": "Android 12"
+      },
+      "price": 13990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/5de/5def216bfc4f737dccf38a2b115eea55.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/707/7076c112ca951d0930f27367b8247efc.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/220/220bc69dccd264631ebaac1ca595e3ad.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 32,
+      "store_id": 2,
+      "brand_id": 4,
+      "category_id": 1,
+      "title": "Samsung Galaxy A73 5G",
+      "description": {
+        "diag": "6.7",
+        "pixel": "2400x1080",
+        "memory": "256",
+        "camera": "108 + 12 + 5 + 5 (четыре основные камеры)",
+        "system": "Android 12"
+      },
+      "price": 43990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/476/476a71cf06bb2f1a29de87f8d1653fd3.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/74c/74ca3c1f0ffbcf568280f01810cab0ce.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/c0e/c0e042d9c179563f379b53ce7d7384ff.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 33,
+      "store_id": 2,
+      "brand_id": 4,
+      "category_id": 1,
+      "title": "Samsung Galaxy Z Fold3 5G",
+      "description": {
+        "diag": "7.6",
+        "pixel": "2208x1768",
+        "memory": "512",
+        "camera": "12 + 12 + 12 (тройная)",
+        "system": "Android 10"
+      },
+      "price": 145990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/bb1/sm-f926_zfold3_5g_frontl30_phantomsilver_210611l37p.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/44c/sm-f926_zfold3_5g_backl30_phantomsilver_210611a37h.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/139/sm-f926_zfold3_5g_openfront_phantomsilver_210611t37g.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 34,
+      "store_id": 2,
+      "brand_id": 3,
+      "category_id": 1,
+      "title": "Xiaomi Redmi 9A",
+      "description": {
+        "diag": "6.53",
+        "pixel": "1600x720",
+        "memory": "32",
+        "camera": "13",
+        "system": "Xiaomi MIUI на основе Android"
+      },
+      "price": 9900,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/e71c0b5828f4a28a47e9d9737be8dfb6/11.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/7d7/12.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/3408086c527820027ba9828fd2341221/11.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 35,
+      "store_id": 2,
+      "brand_id": 3,
+      "category_id": 1,
+      "title": "Xiaomi Redmi Note 11",
+      "description": {
+        "diag": "6.43",
+        "pixel": "2400x1080",
+        "memory": "128",
+        "camera": "50 + 8 + 2 + 2 (четыре основные камеры)",
+        "system": "Xiaomi MIUI на основе Android"
+      },
+      "price": 17990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/0c6/0c636773559a4566ac4cb739fbf43d3f.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/749/74910ec8b329ce2148febed2d7a936a0.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/c16/c165eefc01fcfc492870b42da1224933.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 36,
+      "store_id": 2,
+      "brand_id": 3,
+      "category_id": 1,
+      "title": "Xiaomi 11T",
+      "description": {
+        "diag": "6.67",
+        "pixel": "2400x1080",
+        "memory": "128",
+        "camera": "108 + 8 + 5 (тройная)",
+        "system": "Xiaomi MIUI на основе Android"
+      },
+      "price": 39990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/6a5/16.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/4ac/17.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/92a/21.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 37,
+      "store_id": 2,
+      "brand_id": 3,
+      "category_id": 1,
+      "title": "Xiaomi Redmi 10",
+      "description": {
+        "diag": "6.5",
+        "pixel": "2400x1080",
+        "memory": "128",
+        "camera": "50 + 8 + 2 + 2 (четыре основные камеры)",
+        "system": "Xiaomi MIUI на основе Android"
+      },
+      "price": 16990,
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/123/18.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/fc2/19.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/b80/b808bab09d0a6cd694b550446ed93db3.jpg/resize/483x483/hq/"
+      }
+    },
+    {
+      "id": 38,
+      "store_id": 2,
+      "brand_id": 3,
+      "category_id": 1,
+      "title": "Xiaomi 12 Lite",
+      "description": {
+        "diag": "6.65",
+        "pixel": "2400x1080",
+        "memory": "128",
+        "camera": "108 + 8 + 2 (тройная)",
+        "system": "Xiaomi MIUI на основе Android"
+      },
+      "price": "37990",
+      "photo": {
+        "front": "https://cdn.svyaznoy.ru/upload/iblock/047/047cf7933b8f7a21cbbbd345315430ab.jpg/resize/483x483/hq/",
+        "back": "https://cdn.svyaznoy.ru/upload/iblock/6cd/6cd8e08c92b2d6aa8f829da51e11fac8.jpg/resize/483x483/hq/",
+        "third": "https://cdn.svyaznoy.ru/upload/iblock/ddc/ddcab30e21192555de8866d512630b82.jpg/resize/483x483/hq/"
+      }
+    }
+  ]
+}
