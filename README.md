@@ -15,7 +15,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/devhouse_frontend/third_module/json-server.git
+git remote add origin https://github.com/vladrocky/tech-json-server.git
 git branch -M master
 git push -uf origin master
 ```
